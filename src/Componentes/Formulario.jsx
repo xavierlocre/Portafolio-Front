@@ -18,6 +18,12 @@ const Formulario = () => {
         setCharacters(data)
     }
 
+    const handleDelete = async (id) => {
+        await axios.delete(`${url}/${id}`);
+        setCharacters((prevCharacter) => prevCharacter.filter((character) => character.id !== id));
+        alert(`ATENCION! ELIMINANDO REPOSITORIO ID#${id}`);
+    };
+
     getAllcharacters()
 
     return (
@@ -30,6 +36,7 @@ const Formulario = () => {
                         <p>{character.git}</p>
                         <p>{character.descripcion}</p>
                         <NavLink to={`/editar/${character.id}`}><button>Modificar</button></NavLink>
+                        <button className="buttons" onClick={() => handleDelete(character.id)}>Eliminar</button>
                     </div>
                 ))
             }

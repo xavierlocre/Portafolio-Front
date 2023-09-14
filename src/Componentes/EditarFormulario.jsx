@@ -1,6 +1,7 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
+import './EditarFormulario.css'
 
 const url = "http://localhost:8081/api/v1/portfolio"
 
@@ -12,7 +13,7 @@ const EditarFormulario = () => {
     const [descripcion, setDescripcion] = useState('')
     const navigate = useNavigate()
 
-    const {id} = useParams
+    const {id} = useParams()
 
     const update = async (e) => {
         e.preventDefault()
