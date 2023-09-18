@@ -1,0 +1,55 @@
+
+.boton-edit{
+        background-color: rgba(0, 0, 0, 0.476);
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        border: solid 2px rgba(250, 248, 248, 0.139);
+}
+
+.boton-edit:hover {
+        background-color: rgba(250, 248, 248, 0.139);
+}
+
+.boton-borrar{
+        background-color: rgba(0, 0, 0, 0.476);
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        border: solid 2px rgba(250, 248, 248, 0.139);
+}
+
+.boton-borrar:hover {
+    background-color: rgba(250, 248, 248, 0.139);
+}
+
+.card-api {
+    width: 30%;
+    height: 50%;
+    border: solid 5px rgba(250, 248, 248, 0.139);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    background-color: rgba(8, 4, 0, 0.848);
+    box-shadow: 5px 5px 5px black;
+    transition: 0.3s ease;
+    color: white;
+}
+
+.card-api:hover {
+    transform: translateY(-5px);
+}
+
+.image-contenedor img {
+    width: 100%;
+    max-height: 200px; /* Ajusta la altura máxima de la imagen según tus necesidades */
+    object-fit: cover;
+}
+
+.contenedor-api2{
+    margin-top: 10px;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    /* Estilos para el contenedor derecho */
+}

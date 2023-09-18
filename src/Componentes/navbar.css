@@ -1,3 +1,30 @@
 .active{
-    color: yellow;
+    color: #efb810;
 }
+.lol{
+    text-decoration: none;
+}
+nav{
+    float: right; /* Alinea el contenedor a la derecha */
+    /* width: 50%; 
+    height: 10px; */
+    margin-top: 1%; 
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: large;
+}
+
+nav a{
+    color: white;
+}
+
+.logo img {
+    max-height: 150px; /* Ajusta el tamaño de tu logo según tus necesidades */
+}
+
+/* .contenedor-logo{
+    float: left; 
+    width: 50%; 
+} */

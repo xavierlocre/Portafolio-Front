@@ -3,15 +3,19 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
-      <nav>
-        <NavLink to='/'>Sombre Mi</NavLink>
-        <NavLink to='/frontendskills'>Front-end skills</NavLink>
-        <NavLink to='/backendskills'>Back-end skills</NavLink>
-        <NavLink to='/proyectos'>Proyectos</NavLink>
-        <NavLink to='/contacto'>Contacto</NavLink>
-      </nav>
-    </div>
+    <>
+      
+        <nav className="navbar">
+          <NavLink className="lol" to='/'>Sombre Mi</NavLink>
+          <NavLink className="lol" to='/frontendskills'>Front-end skills</NavLink>
+          <NavLink className="lol" to='/backendskills'>Back-end skills</NavLink>
+          <NavLink className="lol" to='/proyectos'>Proyectos</NavLink>
+          <NavLink className="lol" to='/contacto'>Contacto</NavLink>
+        </nav>
+        <div className="logo">
+        <img src='\src\assets\img\Black and Gold Classy Minimalist Circular Name Logo (1).png'></img>
+      </div>
+    </>
   )
 }
 
