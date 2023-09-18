@@ -12,31 +12,34 @@ const Proyectos = () => {
             <div className="contenedor-con-fondo">
                 <img className='imagenfondo' src='\src\assets\img\retrato-dinamico-joven-mujer-bailando-hiphop-aislado-sobre-fondo-negro-efecto-luces-mixtas.jpg' alt="Fondo" />
             </div>
-            <div>
-                <NavLink className='navlink-create' to="/create">
-                    <button>Crear<Icon icon="ph:link-bold" color="gray" /></button>
-                </NavLink>
+            <div className="padre4">
+                <h1 className="proyecto">Proyectos</h1>
+                <div className="boton-container">
+                    <NavLink className='navlink-create' to="/create">
+                        <button>Crear<Icon icon="ph:link-bold" color="gray" /></button>
+                    </NavLink>
+                </div>
             </div>
             <div className="crud-carousel">
                 <Carousel>
                     <div className="crud-section create">
                         {/* Contenido para la sección "Crear" */}
-                        <Formulario/>
+                        <Formulario />
                         {/* Agrega tu formulario de creación u otro contenido aquí */}
                     </div>
                     <div className="crud-section read">
                         {/* Contenido para la sección "Leer" */}
-                        <Formulario/>
+                        <Formulario />
                         {/* Agrega tu lista de elementos o contenido de lectura aquí */}
                     </div>
                     <div className="crud-section update">
                         {/* Contenido para la sección "Actualizar" */}
-                        <Formulario/>
+                        <Formulario />
                         {/* Agrega tu formulario de actualización u otro contenido aquí */}
                     </div>
                     <div className="crud-section delete">
                         {/* Contenido para la sección "Eliminar" */}
-                        <Formulario/>
+                        <Formulario />
                         {/* Agrega tu formulario de eliminación u otro contenido aquí */}
                     </div>
                 </Carousel>

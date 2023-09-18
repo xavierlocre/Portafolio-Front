@@ -35,3 +35,21 @@
     /* Estilos cuando el cursor está sobre el botón */
     background-color: rgba(250, 248, 248, 0.139);
 }
+
+.padre4{
+    background-color: #333333da;
+    color: #fff;
+    padding: 1px 0;
+    display: flex; /* Establece un contenedor flex */
+    align-items: center; /* Centra verticalmente el contenido */
+    gap: 10px; /* Espacio entre los elementos */
+    
+    }
+
+.boton-container {
+    flex-grow: 1; /* Permite que el contenedor del botón ocupe todo el espacio disponible */
+}
+
+.proyecto{
+    margin-left: 25px;
+}

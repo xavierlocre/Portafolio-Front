@@ -138,3 +138,13 @@
 .cardback-izquierdo:hover {
     transform: translateX(70px);
 }
+
+.padre3{
+    background-color: #333333da;
+    color: #fff;
+    padding: 1px 0;
+}
+
+.back{
+    margin-left: 25px;
+}

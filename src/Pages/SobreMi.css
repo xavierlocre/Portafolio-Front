@@ -14,6 +14,7 @@
 }
 
 .card {
+    margin-right: 200px;
     padding: 1em 0;
     gap: 0.5em;
     /* margin: 95px; */
@@ -36,7 +37,7 @@
 .contenedor {
     float: left; /* Alinea el contenedor a la izquierda */
     width: 50%; /* Puedes ajustar el ancho según tus necesidades */
-    height: 100vh;
+    height: auto;
     display: flex;
     margin-top: 5%;
     justify-content: center; /* Centra horizontalmente */

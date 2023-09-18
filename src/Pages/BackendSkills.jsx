@@ -7,11 +7,12 @@ const BackendSkills = () => {
                 <img className='imagenfondo' src='\src\assets\img\retrato-dinamico-joven-mujer-bailando-hiphop-aislado-sobre-fondo-negro-efecto-luces-mixtas.jpg' />
             </div>}
             <div className='padre3'>
+                <h1 className='back'>Back-End Skills</h1>
                 <div className='contenedor-izquiero2'>
                     <div className="cardback-izquierdo">
                         <div className='separacion'>
                             <h3>Java:</h3>
-                            <p>Amplia experiencia en programación en Java,
+                            <p>Conocimiento en programación en Java,
                                 abarcando desde aplicaciones de escritorio
                                 hasta desarrollo web. Mi habilidad en este
                                 lenguaje se traduce en la creación de software
@@ -22,8 +23,8 @@ const BackendSkills = () => {
                             </p>
                             <h3>Bases de Datos: </h3>
                             <p>
-                                Experto en la gestión y diseño de bases de datos, con amplia
-                                experiencia en SQL y NoSQL. Mi enfoque se centra en la creación de
+                                Conocimiento en la gestión y diseño de bases de datos, con
+                                experiencia en SQL. Mi enfoque se centra en la creación de
                                 estructuras de datos eficientes y seguras para respaldar aplicaciones
                                 y sistemas. Soy apasionado por la optimización del rendimiento y la
                                 garantía de la integridad de los datos, contribuyendo a la confiabilidad

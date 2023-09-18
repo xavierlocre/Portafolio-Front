@@ -10,7 +10,7 @@ const SobreMi = () => {
             <div className='padre'>
                 <div className='contenedor'>
                     <div className='card-img'>
-                        <img className='imagen-card' src="\src\assets\img\ck492rcbhk4g0081fpd0.jpg" />
+                        <img className='imagen-card' src="\src\assets\img\WhatsApp Image 2023-07-24 at 08.40.03.jpeg" />
                     </div>
                 </div>
                 <div className='contenedor-skills'>

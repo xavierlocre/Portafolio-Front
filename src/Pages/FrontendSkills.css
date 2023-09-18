@@ -14,17 +14,18 @@
 }
 
 .contenedor-izquierda {
+    
     float: left; /* Alinea el contenedor a la izquierda */
     width: 50%; /* Puedes ajustar el ancho según tus necesidades */
     height: auto;
     display: flex;
-    margin-top: 0.5%; /* Centra verticalmente */
+    margin-top: 1%; /* Centra verticalmente */
     justify-content: center; /* Centra horizontalmente */
     /* Estilos para el contenedor derecho */
 }
 
 .contenedor-derecha {
-    /* margin-top: 100px; */
+    margin-top: 15px;
     float: right; /* Alinea el contenedor a la derecha */
     width: 50%; /* Puedes ajustar el ancho según tus necesidades */
     height: auto;
@@ -182,4 +183,14 @@
 
 .skills__tech {
     font-size: 14px; /* Reducir el tamaño de fuente */
+}
+
+.padre2{
+    background-color: #333333da;
+    color: #fff;
+    padding: 1px 0;
+}
+
+.front{
+    margin-left: 25px;
 }
