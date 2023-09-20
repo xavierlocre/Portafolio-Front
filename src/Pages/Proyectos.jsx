@@ -44,7 +44,6 @@ const Proyectos = () => {
                     </div>
                 </Carousel>
             </div>
-            );
         </div>
     );
 }
