@@ -1,0 +1,47 @@
+.contenedor-con-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.imagenfondo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.formulario {
+    border: solid 5px rgba(250, 248, 248, 0.139);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.894);
+    color: rgb(250, 248, 248);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid rgba(250, 248, 248, 0.139);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: burlywood;
+    margin-bottom: 10px;
+}
+
+.formulario button {
+    background-color: rgba(0, 0, 0, 0.476);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px rgba(250, 248, 248, 0.139);
+}

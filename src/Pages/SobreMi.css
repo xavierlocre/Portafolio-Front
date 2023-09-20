@@ -1,0 +1,112 @@
+.contenedor-con-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.imagenfondo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    margin-right: 200px;
+    padding: 1em 0;
+    gap: 0.5em;
+    /* margin: 95px; */
+    width: 70%;
+    /* height: 50%; */
+    border: solid 5px rgba(250, 248, 248, 0.139);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    background-color: rgba(8, 4, 0, 0.848);
+    box-shadow: 5px 5px 5px black;
+    transition: 0.3s ease;
+    color: white;
+}
+
+.card:hover {
+    transform: translateY(-50px);
+}
+
+.contenedor {
+    float: left; /* Alinea el contenedor a la izquierda */
+    width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+    height: auto;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center; /* Centra horizontalmente */
+    /* Estilos para el contenedor derecho */
+}
+
+.separador-sobremi{
+        margin: 30px;
+}
+
+/* div.padre {
+    width: 100%;
+    height: 100;
+    margin: auto;
+    display: grid;
+} */
+
+.card-img {
+    margin-left: 30%;
+    border: solid 5px rgba(250, 248, 248, 0.139);
+    border-radius: 50%; /* Establece el radio para hacer la tarjeta redonda */
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.721);
+    box-shadow: 5px 5px 5px black;
+    transition: 0.3s ease;
+    color: white;
+    width: 500px; /* Establece un ancho para la tarjeta (ajusta según tus necesidades) */
+    height: 500px; /* Establece una altura para la tarjeta (ajusta según tus necesidades) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-img:hover {
+    transform: translateY(-50px);
+}
+
+.imagen-card{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.contenedor-skills{
+    margin-top: 10px;
+    float: right; /* Alinea el contenedor a la derecha */
+    width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+    height: auto;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    /* Estilos para el contenedor derecho */
+    /* padding: 10px; */
+}
+
+.full{
+    font-size: 30px;
+    /* color: aqua; */
+}
+
+.hab{
+    font-size: medium;
+    /* color: aqua; */
+}
+
+.nom{
+    font-size: 50px;
+    color: aqua;
+}

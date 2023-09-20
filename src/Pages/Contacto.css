@@ -1,0 +1,110 @@
+.contenedor-con-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.imagenfondo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para el footer */
+.footer {
+    background-color: #333333da;
+    color: #fff;
+    padding: 12px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* Colocar los elementos en columna */
+    align-items: center;
+    /* Centrar horizontalmente */
+    /* margin-top: 27%; */
+    
+}
+
+/* Estilos para la sección de Contacto */
+.contacto {
+    margin-bottom: 20px;
+    text-align: center;
+    /* Alineación de texto centrada */
+}
+
+.contacto h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de Redes Sociales */
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Estilos para los enlaces en hover */
+.redes-sociales a:hover {
+    text-decoration: underline;
+}
+
+.boton-descarga {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.boton-descarga:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.container{
+    width: 100%;
+    height: 55.1vh;
+    
+}
+
+.imagen-card2{
+    margin-left: 10%;
+    border: solid 5px rgba(250, 248, 248, 0.139);
+    border-radius: 50%; /* Establece el radio para hacer la tarjeta redonda */
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.721);
+    box-shadow: 5px 5px 5px black;
+    transition: 0.3s ease;
+    color: white;
+    width: 500px; /* Establece un ancho para la tarjeta (ajusta según tus necesidades) */
+    height: 500px; /* Establece una altura para la tarjeta (ajusta según tus necesidades) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease; /* Transición para el efecto hover */
+    transform-style: preserve-3d; /* Importante para la rotación 3D */
+}
+
+.imagen-card2:hover {
+    transform: rotateY(180deg); /* Gira la tarjeta 180 grados en el eje Y al hacer hover */
+}
+
+.dw{
+    float: right; /* Alinea el contenedor a la derecha */
+    /* width: 50%; 
+    height: 10px; */
+    margin-top: 1%; 
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: large;
+    margin-right: 20px;
+}
