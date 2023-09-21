@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { NavLink } from "react-router-dom"
 import { Icon } from '@iconify/react';
 
-const url = "http://localhost:8081/api/v1/portfolio"
+const url = "https://portafolio-backend-production-eb9a.up.railway.app/api/v1/portfolio"
 const Formulario = () => {
 
     const [characters, setCharacters] = useState([])

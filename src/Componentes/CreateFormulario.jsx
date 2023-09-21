@@ -6,7 +6,7 @@ import { Icon } from '@iconify/react';
 
 
 
-const url = "http://localhost:8081/api/v1/portfolio"
+const url = "https://portafolio-backend-production-eb9a.up.railway.app/api/v1/portfolio"
 
 const CreateFormulario = () => {
 
