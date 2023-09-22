@@ -1,11 +1,12 @@
 import './SobreMi.css'
+import fondo from '../assets/img/fondo.jpg'
 
 
 const SobreMi = () => {
     return (
         <>
             {<div className="contenedor-con-fondo">
-                <img className='imagenfondo' src='\src\assets\img\retrato-dinamico-joven-mujer-bailando-hiphop-aislado-sobre-fondo-negro-efecto-luces-mixtas.jpg' />
+                <img className='imagenfondo' src={fondo} />
             </div>}
             <div className='padre'>
                 <div className='contenedor'>
