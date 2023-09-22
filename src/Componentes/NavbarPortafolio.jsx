@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
 import './NavbarPortafolio.css'
+import logo from '../assets/img/logo.png'
 
 const NavbarPortafolio = () => {
   return (
@@ -13,7 +14,7 @@ const NavbarPortafolio = () => {
           <NavLink className="lol" to='/contacto'>Contacto</NavLink>
         </nav>
         <div className="logo">
-        <img src='\src\assets\img\Black and Gold Classy Minimalist Circular Name Logo (1).png'></img>
+        <img src={logo}></img>
       </div>
     </>
   )

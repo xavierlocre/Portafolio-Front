@@ -1,10 +1,11 @@
 import './BackendSkills.css'
+import fondo from '../assets/img/fondo.jpg'
 
 const BackendSkills = () => {
     return (
         <>
             {<div className="contenedor-con-fondo">
-                <img className='imagenfondo' src='\src\assets\img\retrato-dinamico-joven-mujer-bailando-hiphop-aislado-sobre-fondo-negro-efecto-luces-mixtas.jpg' />
+                <img className='imagenfondo' src={fondo} />
             </div>}
             <div className='padre3'>
                 <h1 className='back'>Back-End Skills</h1>

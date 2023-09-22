@@ -3,6 +3,7 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import './CreateFormulario.css'
 import { Icon } from '@iconify/react';
+import fondo from '../assets/img/fondo.jpg'
 
 
 
@@ -26,7 +27,7 @@ const CreateFormulario = () => {
     return (
         <>
             {<div className="contenedor-con-fondo">
-                <img className='imagenfondo' src='\src\assets\img\retrato-dinamico-joven-mujer-bailando-hiphop-aislado-sobre-fondo-negro-efecto-luces-mixtas.jpg' />
+                <img className='imagenfondo' src={fondo} />
             </div>}
             <h2>Crear Repositorio</h2>
             <div className="contenedor-form">

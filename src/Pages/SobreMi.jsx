@@ -1,5 +1,6 @@
 import './SobreMi.css'
 import fondo from '../assets/img/fondo.jpg'
+import perfil from '../assets/img/perfil.jpeg'
 
 
 const SobreMi = () => {
@@ -11,7 +12,7 @@ const SobreMi = () => {
             <div className='padre'>
                 <div className='contenedor'>
                     <div className='card-img'>
-                        <img className='imagen-card' src="\src\assets\img\WhatsApp Image 2023-07-24 at 08.40.03.jpeg" />
+                        <img className='imagen-card' src={perfil} />
                     </div>
                 </div>
                 <div className='contenedor-skills'>
