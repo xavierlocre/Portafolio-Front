@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
-import './Navbar.css'
+import './NavbarPortafolio.css'
 
-const Navbar = () => {
+const NavbarPortafolio = () => {
   return (
     <>
       
@@ -19,4 +19,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavbarPortafolio
