@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 nav{
-    float: right; /* Alinea el contenedor a la derecha */
+    float: right; 
     /* width: 50%; 
     height: 10px; */
     margin-top: 1%; 
@@ -22,7 +22,7 @@ nav a{
 }
 
 .logo img {
-    max-height: 150px; /* Ajusta el tamaño de tu logo según tus necesidades */
+    max-height: 150px; 
 }
 
 /* .contenedor-logo{

@@ -15,24 +15,23 @@
 
 .contenedor-izquierda {
     
-    float: left; /* Alinea el contenedor a la izquierda */
-    width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+    float: left; 
+    width: 50%; 
     height: auto;
     display: flex;
-    margin-top: 1%; /* Centra verticalmente */
-    justify-content: center; /* Centra horizontalmente */
-    /* Estilos para el contenedor derecho */
+    margin-top: 1%; 
+    justify-content: center; 
 }
 
 .contenedor-derecha {
     margin-top: 15px;
-    float: right; /* Alinea el contenedor a la derecha */
-    width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+    float: right; 
+    width: 50%; 
     height: auto;
     display: flex;
-    align-items: center; /* Centra verticalmente */
-    justify-content: center; /* Centra horizontalmente */
-    /* Estilos para el contenedor derecho */
+    align-items: center; 
+    justify-content: center; 
+    
     /* padding: 10px; */
 }
 
@@ -78,14 +77,14 @@
 }
 
 .skills{
-    padding: 0.5em 0; /* Reducir el espacio interior */
+    padding: 0.5em 0; 
 }
 
 .skills__item{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 14px; /* Reducir el tamaño de fuente */
+    font-size: 14px;
 }
 
 .skills__bar
@@ -182,7 +181,7 @@
 }
 
 .skills__tech {
-    font-size: 14px; /* Reducir el tamaño de fuente */
+    font-size: 14px; 
 }
 
 .padre2{

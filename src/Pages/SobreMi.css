@@ -35,13 +35,12 @@
 }
 
 .contenedor {
-    float: left; /* Alinea el contenedor a la izquierda */
-    width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+    float: left;
+    width: 50%;
     height: auto;
     display: flex;
     margin-top: 5%;
-    justify-content: center; /* Centra horizontalmente */
-    /* Estilos para el contenedor derecho */
+    justify-content: center; 
 }
 
 .separador-sobremi{
@@ -58,15 +57,15 @@
 .card-img {
     margin-left: 30%;
     border: solid 5px rgba(250, 248, 248, 0.139);
-    border-radius: 50%; /* Establece el radio para hacer la tarjeta redonda */
+    border-radius: 50%; 
     margin-bottom: 10px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.721);
     box-shadow: 5px 5px 5px black;
     transition: 0.3s ease;
     color: white;
-    width: 500px; /* Establece un ancho para la tarjeta (ajusta según tus necesidades) */
-    height: 500px; /* Establece una altura para la tarjeta (ajusta según tus necesidades) */
+    width: 500px; 
+    height: 500px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,13 +85,12 @@
 
 .contenedor-skills{
     margin-top: 10px;
-    float: right; /* Alinea el contenedor a la derecha */
-    width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+    float: right; 
+    width: 50%; 
     height: auto;
     display: flex;
-    align-items: center; /* Centra verticalmente */
-    justify-content: center; /* Centra horizontalmente */
-    /* Estilos para el contenedor derecho */
+    align-items: center; 
+    justify-content: center; 
     /* padding: 10px; */
 }
 

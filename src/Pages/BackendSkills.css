@@ -14,22 +14,21 @@
 }
 
 .contenedor-izquiero2 {
-    float: left; /* Alinea el contenedor a la izquierda */
-    width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+    float: left; 
+    width: 50%; 
     height: 100vh;
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    /* Estilos para el contenedor derecho */
+    justify-content: center; 
     margin-top: 4%;
 }
 
 .contenedor-derecho2 {
-    float: right; /* Alinea el contenedor a la derecha */
-    width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+    float: right;
+    width: 50%; 
     height: 100vh;
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    /* Estilos para el contenedor derecho */
+    justify-content: center;
+    
     margin-top: 4%;
 }
 

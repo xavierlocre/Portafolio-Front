@@ -14,15 +14,11 @@
 }
 
 .navlink-create {
-    /* Estilos para el NavLink */
     text-decoration: none;
-    /* Elimina el subrayado predeterminado */
     color: white;
-    /* Cambia el color del texto */
 }
 
 .navlink-create button {
-    /* Estilos para el botón dentro del NavLink */
     background-color: rgba(0, 0, 0, 0.476);
     color: black;
     border: solid 2px rgba(250, 248, 248, 0.139);
@@ -32,7 +28,6 @@
 }
 
 .navlink-create button:hover {
-    /* Estilos cuando el cursor está sobre el botón */
     background-color: rgba(250, 248, 248, 0.139);
 }
 
@@ -40,14 +35,13 @@
     background-color: #333333da;
     color: #fff;
     padding: 1px 0;
-    display: flex; /* Establece un contenedor flex */
-    align-items: center; /* Centra verticalmente el contenido */
-    gap: 10px; /* Espacio entre los elementos */
-    
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
     }
 
 .boton-container {
-    flex-grow: 1; /* Permite que el contenedor del botón ocupe todo el espacio disponible */
+    flex-grow: 1; 
 }
 
 .proyecto{

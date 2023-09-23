@@ -1,6 +1,7 @@
 import './Contacto.css'
 import fondo from '../assets/img/fondo.jpg'
 import foter from '../assets/img/foter.jpg'
+import cv from '../assets/texto/cv.pdf'
 
 
 const Contacto = () => {
@@ -10,7 +11,7 @@ const Contacto = () => {
                 <img className='imagenfondo' src={fondo} />
             </div>}
             <div className='dw'>
-                <a href="\src\assets\texto\Xavier López Crespo (2).pdf" download="CV Xavier López Crespo" className="boton-descarga">Descargar CV</a>
+                <a href={cv} download="CV Xavier López Crespo" className="boton-descarga">Descargar CV</a>
             </div>
             <div className='container'>
                 <img className='imagen-card2' src={foter} />
